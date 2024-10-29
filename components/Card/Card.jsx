@@ -6,10 +6,11 @@ export default function Card(props) {
     if (startDate !== endDate) {
         endDateContent = ' - ' + endDate
     }
+    const img = require(`${imageUrl}`)
     return (
         <article className="entry">
             <div className="entry--image">
-                <img src={imageUrl} alt={imgDesc} />
+                <img src={img} alt={imgDesc} />
             </div>
             <div className="entry--info">
                 <div className="entry--location">
