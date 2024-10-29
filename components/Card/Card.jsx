@@ -1,4 +1,5 @@
 import React from "react"
+import images from "../assets"
 
 export default function Card(props) {
     const {title, location, googleMapsUrl, startDate, endDate, description, imgDesc, imageUrl} = props
@@ -6,11 +7,10 @@ export default function Card(props) {
     if (startDate !== endDate) {
         endDateContent = ' - ' + endDate
     }
-    const img = require(`${imageUrl}`)
     return (
         <article className="entry">
             <div className="entry--image">
-                <img src={img} alt={imgDesc} />
+                <img src={imageUrl} alt={imgDesc} />
             </div>
             <div className="entry--info">
                 <div className="entry--location">
