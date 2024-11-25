@@ -7,7 +7,7 @@ export default [
         startDate: "19 June, 2003",
         endDate: "23 June, 2003",
         description: "Went to Hot Springs MT's local church to watch my parents get married.",
-        imageUrl: "./assets/moms-wedding.jpg",
+        imageUrl: "../src/assets/moms-wedding.jpg",
         imgDesc: "A photo of my mom, me, and my sister on my moms wedding day dressed up."
     },
     {
@@ -18,7 +18,7 @@ export default [
         startDate: "04 May, 2006",
         endDate: "08 May, 2006",
         description: "Went to the Sacajawea Park in Bozemen MT.",
-        imageUrl: "./assets/sacajawea.jpg",
+        imageUrl: "../src/assets/sacajawea.jpg",
         imgDesc: "Me and my sister as children standing in front of a bronze Sacajawea statue."
     },
     {
@@ -28,7 +28,7 @@ export default [
         startDate: "04 May, 2012",
         endDate: "04 May, 2012",
         description: "The first night Jack and Jasper spent together Jack would follow Jasper everywhere and was so protective of him.",
-        imageUrl: "./assets/jack-and-jasper.jpg",
+        imageUrl: "../src/assets/jack-and-jasper.jpg",
         imgDesc: "A small white jackrussel named Jack, following a smaller black aphenpincher named Jasper."
     },
     {
@@ -38,7 +38,7 @@ export default [
         startDate: "31 October, 2016",
         endDate: "31 October, 2016",
         description: "Sam and Dad dressed up as dorks and went trick or treating.",
-        imageUrl: "./assets/halloween-2016.jpg",
+        imageUrl: "../src/assets/halloween-2016.jpg",
         imgDesc: "Sam dressed as Kylo Wren and Dad dressed as a star trek character for halloween."
     },
     {
@@ -49,7 +49,7 @@ export default [
         startDate: "13 August, 2017",
         endDate: "13 August, 2017",
         description: "Sam gets to order his first big kid meal at Perkins.",
-        imageUrl: "./assets/sam-and-mom-perkins.jpg",
+        imageUrl: "../src/assets/sam-and-mom-perkins.jpg",
         imgDesc: "Sam pointing at a menu and smiling awkwarly while mom holds the menu."
     },
     {
@@ -59,7 +59,7 @@ export default [
         startDate: "10 April, 2018",
         endDate: "10 April, 2018",
         description: "Jack helping me study.",
-        imageUrl: "./assets/study-session.jpg",
+        imageUrl: "../src/assets/study-session.jpg",
         imgDesc: "A white jackrussle named Jack sleeping on a bed next to an open laptop."
     },
     {
@@ -70,7 +70,7 @@ export default [
         startDate: "8 August, 2018",
         endDate: "20 August, 2018",
         description: "A trip I took to visit my Nana with my brother Spencer and Mom.",
-        imageUrl: "./assets/costa-rica.jpg",
+        imageUrl: "../src/assets/costa-rica.jpg",
         imgDesc: "A picture of a tree filled forset in Grecia, Costa Rica."
     },
     {
@@ -81,7 +81,7 @@ export default [
         startDate: "13 January, 2019",
         endDate: "14 January, 2019",
         description: "I went to Spokane WA to see something new.",
-        imageUrl: "./assets/running.jpg",
+        imageUrl: "../src/assets/running.jpg",
         imgDesc: "Me pretending to run with the running statues."
     },
     {
@@ -92,7 +92,7 @@ export default [
         startDate: "26 February, 2019",
         endDate: "26 February, 2019",
         description: "My first night studying at the university after coming back to school and the snow is piled up as tall as me.",
-        imageUrl: "./assets/snow.jpg",
+        imageUrl: "../src/assets/snow.jpg",
         imgDesc: "Me standing in front of a giant pile of snow."
     },
     {
@@ -102,7 +102,7 @@ export default [
         startDate: "28, March, 2019",
         endDate: "28, March, 2019",
         description: "Sam holding Bean close while he makes a sandwich.",
-        imageUrl: "./assets/sam-and-bean.jpg",
+        imageUrl: "../src/assets/sam-and-bean.jpg",
         imgDesc: "Sam holding Bean, the cat, while sitting at a tabel."
     },
     {
@@ -113,7 +113,7 @@ export default [
         startDate: "22 April, 2019",
         endDate: "22 April, 2019",
         description: "Nothing special happened this hike, but I just love this photo of my boy.",
-        imageUrl: "./assets/jasper.jpg",
+        imageUrl: "../src/assets/jasper.jpg",
         imgDesc: "Jasper highfiving me while I hold him and smile wide."
     },
     {
@@ -124,7 +124,7 @@ export default [
         startDate: "04 May, 2019",
         endDate: "04 May, 2019",
         description: "Wallace is the self proclaimed center of the universe! Since somewhere has to be.",
-        imageUrl: "./assets/stardust-motel.jpg",
+        imageUrl: "../src/assets/stardust-motel.jpg",
         imgDesc: "Me standing in front of a big sign that says Stardust Motel"
     },
     {

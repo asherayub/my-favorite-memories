@@ -7,6 +7,8 @@ export default function Card(props) {
         endDateContent = ' - ' + endDate
     }
 
+    console.log(props.img)
+
     return (
         <article className="entry">
             <div className="entry--image">

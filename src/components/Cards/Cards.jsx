@@ -1,9 +1,8 @@
 import React from "react"
-import Card from "/components/Card/Card.jsx"
+import Card from "../Card/Card.jsx"
 import data from "/data.js"
 
-const images = require.context('../../images', true);
-// const imageList = images.keys().map(image => images(image));
+// const images = require.context('../../images', true);
 
 export default function Cards() {
     const cards = data.map(trip => {
@@ -11,7 +10,7 @@ export default function Cards() {
             <Card
                 className="entries" 
                 key={trip.id}
-                img={images(trip.imageUrl)}
+                img={trip.imageUrl}
                 {...trip}
             />
         )
