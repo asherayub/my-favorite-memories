@@ -1,7 +1,6 @@
 import React from "react"
 import Card from "../Card/Card.jsx"
 import data from "/data.js"
-import "/src/assets/costa-rica.jpg"
 
 // const images = require.context('../../images', true);
 

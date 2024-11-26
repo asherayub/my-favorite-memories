@@ -1,4 +1,5 @@
 import React from "react"
+import "/src/assets/costa-rica.jpg"
 
 export default function Card({title, location, googleMapsUrl, startDate, endDate, description, imgDesc, imageUrl}) {
     let endDateContent = ''
