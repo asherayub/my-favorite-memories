@@ -1,8 +1,9 @@
 import React from "react"
 import Card from "../Card/Card.jsx"
 import data from "/data.js"
+import "/src/assets/costa-rica.jpg"
 
-const images = require.context('../../images', true);
+// const images = require.context('../../images', true);
 
 export default function Cards() {
     const cards = data.map(trip => {
@@ -10,7 +11,7 @@ export default function Cards() {
             <Card
                 className="entries" 
                 key={trip.id}
-                img={images(trip.imageUrl)}
+                img={trip.imageUrl}
                 {...trip}
             />
         )

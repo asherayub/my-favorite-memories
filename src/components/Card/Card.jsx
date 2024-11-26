@@ -1,13 +1,10 @@
 import React from "react"
 
-export default function Card(props) {
-    const {title, location, googleMapsUrl, startDate, endDate, description, imgDesc, imageUrl} = props
+export default function Card({title, location, googleMapsUrl, startDate, endDate, description, imgDesc, imageUrl}) {
     let endDateContent = ''
     if (startDate !== endDate) {
         endDateContent = ' - ' + endDate
     }
-
-    console.log(props.img)
 
     return (
         <article className="entry">
